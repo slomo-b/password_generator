@@ -2,7 +2,7 @@
 Its a small but very practical password generator app which provides two passwords with each 15 random characters.
 Ive also added a copyToClipboard function which is called when the div with the generated password gets clicked.
 
-check out the live preview here:    
+check out the live preview here:    https://ephemeral-lokum-4178d2.netlify.app/
 
 # Getting Started
 Install the dependencies and run the project
