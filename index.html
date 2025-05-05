@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Generate a</h1>
+        <h1 class="green-txt">random password</h1>
+        <h2 class="untertitel">Never use an insecure password again.</h2>
+        <button onclick="generateKeys()">Generate passwords</button>
+        <hr class="spacer">
+        <div class="pw-wrapper">
+            <div onclick="copyToClipboardOne()" style="cursor: pointer;" id="pw-box-1" class="pw-box"></div>
+            <div onclick="copyToClipboardTwo()" style="cursor: pointer;" id="pw-box-2" class="pw-box"></div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
